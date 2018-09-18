@@ -9,13 +9,6 @@ class Tamagotchi {
         this.restedness = 10
         this.health = 10
     }
-
-
-
-//create new Tamagotchis
-
-
-//test out your Tamagotchies below via console.logs
     cry() {
         this.foodInTummy--
         console.log('WAAAH!!!')
@@ -32,3 +25,10 @@ class Tamagotchi {
         console.log(this.name + ' has current restedness = ' + this.restedness)
     }
 }
+
+//create new Tamagotchis
+let Quesadillo = new Tamagotchi()
+let TheKingAdRock = new Tamagotchi()
+
+//test out your Tamagotchies below via console.logs
+ 
