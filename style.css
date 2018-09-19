@@ -1,35 +1,39 @@
 body {
-    background-color: rgb(132, 121, 230);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(141, 183, 231);
+    font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     margin-top: 10%;
+}
+
+header {
+    font-family: 'Bungee Shade', cursive;
 }
 
 .buttonActivate {
     font-size: 15px;
     border-radius: 15px;
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.4);
 
 }
 
 .buttonAbandon {
     font-size: 15px;
     border-radius: 15px;
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.4);
 }
 
 .feedButton {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.4);
     border-radius: 10px;
 }
 
 .healButton {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.4);
     border-radius: 10px;
 }
 
 .restButton {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.4);
     border-radius: 10px;
 }
 
