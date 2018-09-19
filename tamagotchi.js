@@ -1,6 +1,7 @@
 console.log('tamagotchi file is loaded');
 
 //your class declaration here
+
 class Tamagotchi {
     constructor(name, creatureType) {
         this.name = name
@@ -46,19 +47,22 @@ class Tamagotchi {
 }
 
 //create new Tamagotchis
-let Quesadillo = new Tamagotchi('Quesadillo', 'blah')
+
+let Quesadillo = new Tamagotchi('Quesadillo', '')
 // Quesadillo.start()
 
-let TheKingAdRock = new Tamagotchi('TheKingAdRock', 'blah')
+let TheKingAdRock = new Tamagotchi('TheKingAdRock', '')
 // TheKingAdRock.start()
 
-let WilfredBrimly = new Tamagotchi('WilfredBrimly', 'blah')
+let WilfredBrimly = new Tamagotchi('WilfredBrimly', '')
 // WilfredBrimly.start()
 
-let NinetiesKid = new Tamagotchi('NinetiesKid', 'blah')
+let NinetiesKid = new Tamagotchi('NinetiesKid', '')
 // NinetiesKid.start()
 
+
 //test out your Tamagotchies below via console.logs
-console.log(Quesadillo.cry)
-console.log(TheKingAdRock.yawn)
+
+// console.log(Quesadillo.cry)
+// console.log(TheKingAdRock.yawn)
  
