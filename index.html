@@ -9,9 +9,15 @@
     <script src="tamagotchi.js"></script>
     <!-- player is loaded afterwards so that it may refer to tamagotchi -->
     <script type="text/javascript" src="player.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
+
+      <div>
+          <button type="button" onclick="Quesadillo.start() + TheKingAdRock.start() + WilfredBrimly.start() + NinetiesKid.start()">ACTIVATE THESE TAMAGOTCHIS!</button>
+        </div>
+
     <h3>Quesadillo
       <div>
         <button type="button" onclick="player.feedTamagotchi(Quesadillo)">FEED</button>
@@ -43,6 +49,13 @@
         <button type="button" onclick="player.knockOutTamagotchi(NinetiesKid)">REST</button>
       </div>
     </h3>
+
+
+  <div>
+    <button type="button" onclick="Quesadillo.stop() + TheKingAdRock.stop() + WilfredBrimly.stop() + NinetiesKid.stop()">ABANDON THESE TAMAGOTCHIS!</button>
+  </div>
+
+
   </body>
 
 </html>

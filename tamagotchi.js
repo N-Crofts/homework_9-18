@@ -33,10 +33,10 @@ class Tamagotchi {
         }, 6000);
         this.yawnTimer = setInterval(function() {
           self.yawn();
-        }, 10000);
+        }, 20000);
         this.pukeTimer = setInterval(function() {
           self.puke();
-        }, 25000);
+        }, 50000);
       };
       stop(){
         console.log("Stopping " + this.name);
