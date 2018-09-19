@@ -30,7 +30,7 @@ class Tamagotchi {
         var self = this;
         this.hungerTimer = setInterval(function() {
           self.cry();
-        }, 6000);
+        }, 10000);
         this.yawnTimer = setInterval(function() {
           self.yawn();
         }, 20000);

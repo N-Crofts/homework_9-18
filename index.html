@@ -14,45 +14,57 @@
 
   <body>
 
+    <header>
+      <h1> T A M A G O T C H I S </h1>
+    </header>
+
       <div>
-          <button type="button" onclick="Quesadillo.start() + TheKingAdRock.start() + WilfredBrimly.start() + NinetiesKid.start()">ACTIVATE THESE TAMAGOTCHIS!</button>
+          <button class="buttonActivate" type="button" onclick="Quesadillo.start() + TheKingAdRock.start() + WilfredBrimly.start() + NinetiesKid.start()">ACTIVATE THESE TAMAGOTCHIS!</button>
         </div>
+
+        <br>
+
+        <div>-------------------------</div>
+
 
     <h3>Quesadillo
       <div>
-        <button type="button" onclick="player.feedTamagotchi(Quesadillo)">FEED</button>
-        <button type="button" onclick="player.medicateTamagotchi(Quesadillo)">HEAL</button>
-        <button type="button" onclick="player.knockOutTamagotchi(Quesadillo)">REST</button>
+        <button class="feedButton" type="button" onclick="player.feedTamagotchi(Quesadillo)">FEED</button>
+        <button class="healButton" type="button" onclick="player.medicateTamagotchi(Quesadillo)">HEAL</button>
+        <button class="restButton" type="button" onclick="player.knockOutTamagotchi(Quesadillo)">REST</button>
       </div>
     </h3>
    
     <h3>The King Ad-Rock
       <div>
-        <button type="button" onclick="player.feedTamagotchi(TheKingAdRock)">FEED</button>
-        <button type="button" onclick="player.medicateTamagotchi(TheKingAdRock)">HEAL</button>
-        <button type="button" onclick="player.knockOutTamagotchi(TheKingAdRock)">REST</button>
+        <button class="feedButton" type="button" onclick="player.feedTamagotchi(TheKingAdRock)">FEED</button>
+        <button class="healButton" type="button" onclick="player.medicateTamagotchi(TheKingAdRock)">HEAL</button>
+        <button class="restButton" type="button" onclick="player.knockOutTamagotchi(TheKingAdRock)">REST</button>
       </div>
     </h3>
 
     <h3>Wilfred Brimley
       <div>
-        <button type="button" onclick="player.feedTamagotchi(WilfredBrimly)">FEED</button>
-        <button type="button" onclick="player.medicateTamagotchi(WilfredBrimly)">HEAL</button>
-        <button type="button" onclick="player.knockOutTamagotchi(WilfredBrimly)">REST</button>
+        <button class="feedButton" type="button" onclick="player.feedTamagotchi(WilfredBrimly)">FEED</button>
+        <button class="healButton" type="button" onclick="player.medicateTamagotchi(WilfredBrimly)">HEAL</button>
+        <button class="restButton" type="button" onclick="player.knockOutTamagotchi(WilfredBrimly)">REST</button>
       </div>
     </h3>
 
     <h3>90s Kid
-      <div>
-        <button type="button" onclick="player.feedTamagotchi(NinetiesKid)">FEED</button>
-        <button type="button" onclick="player.medicateTamagotchi(NinetiesKid)">HEAL</button>
-        <button type="button" onclick="player.knockOutTamagotchi(NinetiesKid)">REST</button>
+      <div> 
+        <button class="feedButton" type="button" onclick="player.feedTamagotchi(NinetiesKid)">FEED</button>
+        <button class="healButton" type="button" onclick="player.medicateTamagotchi(NinetiesKid)">HEAL</button>
+        <button class="restButton" type="button" onclick="player.knockOutTamagotchi(NinetiesKid)">REST</button>
       </div>
     </h3>
 
+    <div>-------------------------</div>
+
+    <br>
 
   <div>
-    <button type="button" onclick="Quesadillo.stop() + TheKingAdRock.stop() + WilfredBrimly.stop() + NinetiesKid.stop()">ABANDON THESE TAMAGOTCHIS!</button>
+    <button class="buttonAbandon" type="button" onclick="Quesadillo.stop() + TheKingAdRock.stop() + WilfredBrimly.stop() + NinetiesKid.stop()">ABANDON THESE TAMAGOTCHIS!</button>
   </div>
 
 
